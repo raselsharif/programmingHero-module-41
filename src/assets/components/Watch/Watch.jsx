@@ -26,10 +26,9 @@ function Watch() {
     );
 }
 
-const WatchSingle = (watch) => {
+const WatchSingle = ({watch}) => {
     console.log(watch);
-    const { brand,image_url
-    } = watch.watch
+    const { brand,image_url} = watch
     return (
         <div>
             <h3>Watch Brand: {brand}</h3>
